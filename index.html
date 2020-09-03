@@ -4,13 +4,16 @@
 
 <head>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-    <link rel="stylesheet" href="style.css">
-    <title>NuCamp: A Better Way To Camp</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Soccer Activity</title>
 </head>
 
 <body>
@@ -18,24 +21,21 @@
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-2 col-sm-3 col-md-2 align-self-center">
-                    <img src="img/logo.png" class="img-fluid" />
+                <div class="col col-sm-3 col-md-2 align-self-center">
+                    <img src="img/23.jpeg" class="img-fluid" />
                  </div>
-                <div class="col-8 col-sm">
-                    <h1>NuCamp</h1>
-                    <h2>a better way to camp</h2>
-                </div>
-                <div class="col-2">
-                    <a class="btn btn-primary">Reserve Campsite</a>
-                </div>
-                
-            </div>
-           
+                <div class="col col-sm">
+                    <h1>Youth Soccer</h1>
+                </div> 
+                <div class="colcol-sm-3 align-self-center">
+                   
+                </div>   
+            </div>   
         </div>
     </header>
-   
-        <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
-            <a class="navbar-brand" href="#"><img src="img/logo.png" height="30" width="30" /></a>
+   <!-- nav start here  -->
+        <nav class="navbar navbar-expand-lg w-100  navbar-dark sticky-top">
+            <a class="navbar-brand" href="#"><img src="img/soccer1.jpg" height="30" width="30" /></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">    
             <div class="container">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
@@ -44,46 +44,112 @@
                 <div class="collapse navbar-collapse" id="nucampNavbar">
                     <ul class="navbar-nav">
                         <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg pr-1"></i>Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="abouts.html"><i class="fa fa-info fa-lg pr-1"></i>About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="table.html"><i class="fa fa-list fa-lg pr-1"></i>Sites</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg pr-1"></i>Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="abouts.html"><i></i>About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="table.html"><i</i>Sites</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contactus.html"><i></i>Contact</a></li>
                     </ul>
                 </div> 
             </div>    
         </nav>
-        
+        <!--nav end here ////////////////  -->
+    <!-- carousel start here -->
+
+<div class="container">
+   
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+  
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img  class="img-fluid" src="img/15.jpg" alt="Los Angeles" style="width:100%;">
+        </div>
+  
+        <div class="item">
+          <img class="img-fluid" src="img/drible.jpg" alt="Chicago" style="width:100%;">
+        </div>
+      
+        <div class="item">
+          <img class="img-fluid" src="img/14.jpg" alt="New york" style="width:100%;">
+        </div>
+        <div class="item">
+            <img class="img-fluid" src="img/k1.jpg" alt="New york" style="width:100%;">
+          </div>
+          <div class="item">
+            <img class="img-fluid"  src="img/16.jpg" alt="New york" style="width:100%;">
+          </div>
+      </div>
+  
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+    <!-- carousel end here -->
     <div class="cintainer">
         <div class="row row-content align-items-center">
             
-            <div class="col-xs-12 col-sm-4 order-first col-md-3">
+            <div class="col-xs-12 col-sm-4">
                 <h2 class="text-sm-center">Discover & Review</h2>
+                 <P class="p-3">What many adults have forgotten from their own youth is that children of this age can only focus on a
+                    limited number of tasks at one time. It takes the full attention capacity of a U-6 player to control the ball
+                    because they are still developing basic balance, coordination and agility.</P>
             </div>
-            <div class="col col-sm-6 ">
+            <div class="col-12 col-sm align-items-center">
                 <div class="media">
-                    <img class="d.flex img-thumbnail" src="img/k2.jpg" alt="Breadcrumb Trail"  />
-                    <div class="media-body align-self-center">
-                        <h3>Our Campsites</h3>
-                        <p class="d-none  d-sm-block">Explore our growing database of curated campsites and leave your own reviews!</p>
+                    <div class="container">
+                        <div class="row">
+                            <div class="media-body align-self-center">
+                                
+                                <div class="col-sm-12">
+                               
+                                    <h3>Our Mession</h3>
+                                    <p>The game of soccer is a continuous series of smallsided games that connect different groups of players
+                                        together as the ball moves around the field.
+                                        Individual players will connect with different small
+                                        groups by passing the ball, by dribbling the ball, or
+                                        by moving without the ball into other areas.</p>
+                                    <p class="d-xs-block  d-sm-block"></p>
+                                </div>
+                               <img class="img-fluid d.flex img-thumbnail" src="img/amlak.jpg" alt="Breadcrumb Trail"  />  
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div class="col-12 col-sm">
+                    <div class="media">
+                        <img class="img-fluid d-flex mr-3 img-thumbnail order-last" src="img/k1.jpg" alt="Breadcrumb Trail" />
+                        <div class="media-body">
+                            <h3>React Lake Campground</h3>
+                            <p>Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-
-        <div class="row row-content align-items-center">
-            <div class="col-sm-4 col-md-3">
-                <h2>Featured Campsites</h2>
-            </div>
-            <div class="col-sm-8">
-                <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail order-last" src="img/k1.jpg" alt="Breadcrumb Trail" />
-                    <div class="media-body">
-                        <h3>React Lake Campground</h3>
-        		        <p>Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
-                    </div>
+                <div class="col col-sm-4 col-md-3">
+                    <h2>Featured Campsites</h2>
                 </div>
-            </div>
         </div>
-
+            <div class="row row-content align-items-center">
+                
+            
+            </div>
+     
+<!-- //////////////////////////////////////////////////////////////////////// -->
         <div class="row row-content align-items-center">
             <div class="col-sm-4 order-sm-last col-md-3">
                 <h2 class="text-sm-right">Our Community Partners</h2>

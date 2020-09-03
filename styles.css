@@ -1,5 +1,9 @@
 body {
     font-family: "Open Sans", sans-serif;
+    padding:0;
+    margin:0;
+    background-color: black;
+    color: white;
 }
 
 h1, h2, h3 {
@@ -20,10 +24,27 @@ footer {
 }
 
 .jumbotron {
-    padding: 30px;
+    padding: 0;
     margin:0;
-    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    background-image: linear-gradient(to right, white, #eff2f5, #f7f1f8);
     color: white;
+
+   
+}
+.jumbotron img {
+    border-radius: 150px;
+    width: 100px;
+    height: 100px;
+}
+.jumbotron h1{
+    letter-spacing: 1rem;
+    color: black;
+     text-align: center;
+     padding-top:70px;
+     
+     font-size: 49px;
+     margin:0;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .row-content {
@@ -32,7 +53,11 @@ footer {
     min-height: 200px;
 }
 .navbar {
-    background-color: #901CAD;
+    background-color: black;
+    font-size: 15px;
+    letter-spacing: .5rem;
+
+   
 }
 .site-footer{
     background-image: linear-gradient(#CEC8FF, white);
@@ -43,3 +68,26 @@ footer {
     border-top: none;
     padding: 10px;
 }
+.map-container-5{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+ .map-container-5 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+    
+    
+    nav > li {
+        color: black;
+    }
+    .navbar-brand img {
+        border-radius: 2rem;
+       
+
+    }
