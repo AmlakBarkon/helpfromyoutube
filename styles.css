@@ -8,12 +8,18 @@ body {
 
 h1, h2, h3 {
     font-family: "Lobster", cursive;
+    
+}
+h3{
+    font-size: 3rem;
 }
 
 h2 {
     color: #3046C5;
 }
-
+p{
+    font-size: 2rem;
+}
 header h2 {
     color: #CEC8FF;
 }
@@ -37,10 +43,10 @@ footer {
     height: 100px;
 }
 .jumbotron h1{
-    letter-spacing: 1rem;
+    letter-spacing: 2rem;
     color: black;
      text-align: center;
-     padding-top:70px;
+     padding-top:8px;
      
      font-size: 49px;
      margin:0;
