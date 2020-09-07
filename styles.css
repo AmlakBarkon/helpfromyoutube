@@ -35,7 +35,7 @@ footer {
     background-color: #901CAD;
 }
 .site-footer{
-    background-image: linear-gradient(#CEC8FF, white);
+   
     padding: 20px 0;
 }
 .tab-content {
@@ -43,4 +43,7 @@ footer {
     border-top: none;
     padding: 10px;
 
+}
+.amlakbarkon{
+background-image: linear-gradient(#CEC8FF, rgb(160, 28, 28));
 }
